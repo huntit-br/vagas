@@ -34,6 +34,8 @@ Confira abaixo as oportunidades ativas. Clique no título da vaga para ver todos
 <!-- VAGAS_START -->
 | Vaga | Nível | Modalidade | Área / Stack | Publicada em |
 | :--- | :---: | :---: | :---: | :---: |
+| [**Tech Lead Java – Squad Java + IA (Barueri/SP – Híbrido) — HUNT IT**](https://github.com/huntit-br/vagas/issues/3) | Sênior | 🏢 Híbrido | `Backend, DevOps, Dados/IA, QA, Mobile` | 04/09/2026 |
+| [**Engenheiro de IA (Barueri/SP – Híbrido) — HUNT IT**](https://github.com/huntit-br/vagas/issues/2) | Sênior | 🏢 Híbrido | `Backend, DevOps, Dados/IA, QA, Mobile` | 04/09/2026 |
 | [**[Remoto] Senior Data Engineer — HUNT IT**](https://github.com/huntit-br/vagas/issues/1) | Sênior | 🌐 Remoto | `DevOps, Dados/IA` | 04/09/2026 |
 <!-- VAGAS_END -->
 
