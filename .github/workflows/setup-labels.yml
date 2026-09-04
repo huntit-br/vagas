@@ -42,6 +42,18 @@ jobs:
               { name: 'clt', color: '7057FF', description: 'Contratação CLT' }
             ];
 
+            const defaultUnused = [
+              'accessibility', 'bug', 'documentation', 'duplicate', 'enhancement',
+              'good first issue', 'help wanted', 'invalid', 'question', 'wontfix'
+            ];
+
+            for (const name of defaultUnused) {
+              try {
+                await github.rest.issues.deleteLabel({ owner, repo, name });
+                console.log(`Removida label padrão desnecessária: ${name}`);
+              } catch (e) {}
+            }
+
             const existing = await github.paginate(github.rest.issues.listLabelsForRepo, {
               owner,
               repo,
@@ -53,7 +65,6 @@ jobs:
             for (const label of desiredLabels) {
               const current = existingMap.get(label.name.toLowerCase());
               if (current) {
-                console.log(`Atualizando label: ${label.name}`);
                 await github.rest.issues.updateLabel({
                   owner,
                   repo,
@@ -63,7 +74,6 @@ jobs:
                   description: label.description
                 });
               } else {
-                console.log(`Criando label: ${label.name}`);
                 await github.rest.issues.createLabel({
                   owner,
                   repo,
@@ -73,4 +83,4 @@ jobs:
                 });
               }
             }
-            console.log('Todas as labels foram configuradas com sucesso!');
+            console.log('Labels limpas e configuradas com perfeição!');
