@@ -34,7 +34,7 @@ Confira abaixo as oportunidades ativas. Clique no título da vaga para ver todos
 <!-- VAGAS_START -->
 | Vaga | Nível | Modalidade | Área / Stack | Publicada em |
 | :--- | :---: | :---: | :---: | :---: |
-| *Nenhuma vaga aberta no momento. Fique atento às notificações clicando em **Watch** no topo do repositório!* | — | — | — | — |
+| [**[Remoto] Senior Data Engineer — HUNT IT**](https://github.com/huntit-br/vagas/issues/1) | Sênior | 🌐 Remoto | `DevOps, Dados/IA` | 04/09/2026 |
 <!-- VAGAS_END -->
 
 > 💡 **Dica de Busca:** Você também pode navegar diretamente pela aba **[Issues](../../issues)** e filtrar pelas etiquetas (labels) que mais combinam com o seu perfil, como `remoto`, `senior`, `backend`, `react`, `python`, etc.
