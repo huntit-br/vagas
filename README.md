@@ -34,6 +34,13 @@ Confira abaixo as oportunidades ativas. Clique no título da vaga para ver todos
 <!-- VAGAS_START -->
 | Vaga | Nível | Modalidade | Área / Stack | Publicada em |
 | :--- | :---: | :---: | :---: | :---: |
+| [**Analista de NOC – Nível 1 (Pleno) – São Paulo, SP — HUNT IT**](https://github.com/huntit-br/vagas/issues/10) | Pleno | 📍 Presencial | `Dados/IA, Mobile` | 04/09/2026 |
+| [**Analista de SOC – N1 — HUNT IT**](https://github.com/huntit-br/vagas/issues/9) | Pleno | 🏢 Híbrido | `Backend, Dados/IA, QA, Mobile` | 04/09/2026 |
+| [**Desenvolvedor Java Sênior – IA (Híbrido – Barueri/SP) — HUNT IT**](https://github.com/huntit-br/vagas/issues/8) | Sênior | 🏢 Híbrido | `Backend, Dados/IA, QA, Mobile` | 04/09/2026 |
+| [**Forward Deployed Engineer (AI / Full-Stack) — HUNT IT**](https://github.com/huntit-br/vagas/issues/7) | Sênior | 📍 Presencial | `Backend, Frontend, Fullstack, Dados/IA` | 04/09/2026 |
+| [**Deployment Specialist — HUNT IT**](https://github.com/huntit-br/vagas/issues/6) | Tech Lead | 📍 Presencial | `DevOps, Dados/IA, QA, Mobile` | 04/09/2026 |
+| [**Chief Product & Technology Officer (CPTO) — HUNT IT**](https://github.com/huntit-br/vagas/issues/5) | Sênior | — | `DevOps, Dados/IA` | 04/09/2026 |
+| [**Cloud Program Manager (CPM) — HUNT IT**](https://github.com/huntit-br/vagas/issues/4) | Tech Lead | 🌐 Remoto | `DevOps, Dados/IA, Mobile` | 04/09/2026 |
 | [**Tech Lead Java – Squad Java + IA (Barueri/SP – Híbrido) — HUNT IT**](https://github.com/huntit-br/vagas/issues/3) | Sênior | 🏢 Híbrido | `Backend, DevOps, Dados/IA, QA, Mobile` | 04/09/2026 |
 | [**Engenheiro de IA (Barueri/SP – Híbrido) — HUNT IT**](https://github.com/huntit-br/vagas/issues/2) | Sênior | 🏢 Híbrido | `Backend, DevOps, Dados/IA, QA, Mobile` | 04/09/2026 |
 | [**[Remoto] Senior Data Engineer — HUNT IT**](https://github.com/huntit-br/vagas/issues/1) | Sênior | 🌐 Remoto | `DevOps, Dados/IA` | 04/09/2026 |
