@@ -1,0 +1,109 @@
+﻿name: Sincronizar Mural de Vagas no README
+
+on:
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled, deleted]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+
+      - name: Sincronizar Vagas Abertas
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+
+            const { owner, repo } = context.repo;
+
+            // Busca todas as issues abertas com o label 'vaga'
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: 'open',
+              labels: 'vaga',
+              per_page: 100
+            });
+
+            // Filtra pull requests (a API do GitHub inclui PRs na listagem de issues)
+            const vagas = issues.filter(item => !item.pull_request);
+
+            let tableContent = '';
+
+            if (vagas.length === 0) {
+              tableContent = '| *Nenhuma vaga aberta no momento. Fique atento às notificações clicando em **Watch** no topo do repositório!* | — | — | — | — |\n';
+            } else {
+              tableContent = '| Vaga | Nível | Modalidade | Área / Stack | Publicada em |\n| :--- | :---: | :---: | :---: | :---: |\n';
+
+              for (const vaga of vagas) {
+                const labelNames = vaga.labels.map(l => (typeof l === 'string' ? l : l.name).toLowerCase());
+
+                // Detecta nível
+                let nivel = '—';
+                if (labelNames.includes('senior')) nivel = 'Sênior';
+                else if (labelNames.includes('pleno')) nivel = 'Pleno';
+                else if (labelNames.includes('junior')) nivel = 'Júnior';
+                else if (labelNames.includes('tech-lead')) nivel = 'Tech Lead';
+                else if (labelNames.includes('especialista')) nivel = 'Especialista';
+
+                // Detecta modalidade
+                let modalidade = '—';
+                if (labelNames.includes('remoto')) modalidade = '🌐 Remoto';
+                else if (labelNames.includes('hibrido')) modalidade = '🏢 Híbrido';
+                else if (labelNames.includes('presencial')) modalidade = '📍 Presencial';
+
+                // Detecta área/stack
+                const areas = [];
+                if (labelNames.includes('backend')) areas.push('Backend');
+                if (labelNames.includes('frontend')) areas.push('Frontend');
+                if (labelNames.includes('fullstack')) areas.push('Fullstack');
+                if (labelNames.includes('devops')) areas.push('DevOps');
+                if (labelNames.includes('dados-ia')) areas.push('Dados/IA');
+                if (labelNames.includes('qa')) areas.push('QA');
+                if (labelNames.includes('mobile')) areas.push('Mobile');
+                if (labelNames.includes('cloud')) areas.push('Cloud');
+
+                const stackStr = areas.length > 0 ? areas.join(', ') : 'Tecnologia';
+
+                // Data formatada (DD/MM/AAAA)
+                const date = new Date(vaga.created_at);
+                const dataFormatada = date.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' });
+
+                // Escapa pipes no título da vaga
+                const safeTitle = vaga.title.replace(/\|/g, '-');
+
+                tableContent += `| [**${safeTitle}**](${vaga.html_url}) | ${nivel} | ${modalidade} | \`${stackStr}\` | ${dataFormatada} |\n`;
+              }
+            }
+
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+
+            const startTag = '<!-- VAGAS_START -->';
+            const endTag = '<!-- VAGAS_END -->';
+
+            const regex = new RegExp(`${startTag}[\\s\\S]*?${endTag}`, 'm');
+            const newBlock = `${startTag}\n${tableContent}${endTag}`;
+
+            if (regex.test(readme)) {
+              readme = readme.replace(regex, newBlock);
+              fs.writeFileSync(readmePath, readme, 'utf8');
+              console.log('README atualizado com sucesso!');
+            } else {
+              console.error('Tags delimitadoras <!-- VAGAS_START --> não encontradas no README.');
+            }
+
+      - name: Commit e Push caso haja alterações
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git diff --quiet README.md || (git commit -m "chore(vagas): atualiza mural de vagas no README [skip ci]" README.md && git push)
