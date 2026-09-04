@@ -1,7 +1,7 @@
 ﻿# 🚀 Vagas de Tecnologia — HUNT IT
 
 <p align="center">
-  <img src="https://huntit.com.br/wp-content/uploads/2023/07/logo-hunt-it.png" alt="HUNT IT Logo" width="280" onerror="this.src='https://raw.githubusercontent.com/huntit-br/vagas/main/assets/huntit-logo.png'"/>
+  <img src="assets/logo_huntit.png" alt="HUNT IT Logo" width="300" />
 </p>
 
 <p align="center">
