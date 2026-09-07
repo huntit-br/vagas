@@ -34,6 +34,10 @@ Confira abaixo as oportunidades ativas. Clique no título da vaga para ver todos
 <!-- VAGAS_START -->
 | Vaga | Nível | Modalidade | Área / Stack | Publicada em |
 | :--- | :---: | :---: | :---: | :---: |
+| [**Vendedor Interno (Inside Sales) – Tecnologia Cloud — HUNT IT**](https://github.com/huntit-br/vagas/issues/40) | Tech Lead | 📍 Presencial | `DevOps, Dados/IA, Mobile` | 07/09/2026 |
+| [**Sales Engineer (Pré-Vendas) – Cybersecurity — HUNT IT**](https://github.com/huntit-br/vagas/issues/39) | Pleno | 🌐 Remoto | `DevOps, Dados/IA, Mobile` | 07/09/2026 |
+| [**Head of Sales – Sales Management – Meios de Pagamento _Bancos – São Paulo -SP — HUNT IT**](https://github.com/huntit-br/vagas/issues/38) | Tech Lead | 🏢 Híbrido | `Dados/IA, Mobile` | 07/09/2026 |
+| [**Desenvolvedor(a) Backend Java — HUNT IT**](https://github.com/huntit-br/vagas/issues/37) | Tech Lead | 🏢 Híbrido | `Backend, Dados/IA, QA, Mobile` | 07/09/2026 |
 | [**Analista de Suporte Monitoramento N2  em Datacenter em Porto Alegre -RS — HUNT IT**](https://github.com/huntit-br/vagas/issues/36) | Pleno | 📍 Presencial | `DevOps, Dados/IA, Mobile` | 07/09/2026 |
 | [**Devops Pleno em Porto Alegre – RS — HUNT IT**](https://github.com/huntit-br/vagas/issues/35) | Pleno | 📍 Presencial | `DevOps, Dados/IA, Mobile` | 07/09/2026 |
 | [**Analista de Segurança Sênior (Fortinet) — HUNT IT**](https://github.com/huntit-br/vagas/issues/34) | Sênior | 📍 Presencial | `Backend, Dados/IA` | 07/09/2026 |
