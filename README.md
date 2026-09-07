@@ -34,6 +34,19 @@ Confira abaixo as oportunidades ativas. Clique no título da vaga para ver todos
 <!-- VAGAS_START -->
 | Vaga | Nível | Modalidade | Área / Stack | Publicada em |
 | :--- | :---: | :---: | :---: | :---: |
+| [**Analista de Suporte Monitoramento N2  em Datacenter em Porto Alegre -RS — HUNT IT**](https://github.com/huntit-br/vagas/issues/36) | Pleno | 📍 Presencial | `DevOps, Dados/IA, Mobile` | 07/09/2026 |
+| [**Devops Pleno em Porto Alegre – RS — HUNT IT**](https://github.com/huntit-br/vagas/issues/35) | Pleno | 📍 Presencial | `DevOps, Dados/IA, Mobile` | 07/09/2026 |
+| [**Analista de Segurança Sênior (Fortinet) — HUNT IT**](https://github.com/huntit-br/vagas/issues/34) | Sênior | 📍 Presencial | `Backend, Dados/IA` | 07/09/2026 |
+| [**Analista de Segurança Pleno (SOC) — HUNT IT**](https://github.com/huntit-br/vagas/issues/33) | Tech Lead | 📍 Presencial | `Dados/IA, Mobile` | 07/09/2026 |
+| [**Pré Vendas – cibersegurança — HUNT IT**](https://github.com/huntit-br/vagas/issues/32) | Tech Lead | 📍 Presencial | `DevOps, Dados/IA, QA` | 07/09/2026 |
+| [**Desenvolvedor (a)  Java Sênior – Remoto — HUNT IT**](https://github.com/huntit-br/vagas/issues/31) | Sênior | 🌐 Remoto | `Backend, DevOps, Dados/IA` | 07/09/2026 |
+| [**Executivo de Negócios B2B – Redes, Infraestrutura e Segurança — HUNT IT**](https://github.com/huntit-br/vagas/issues/30) | Tech Lead | 🏢 Híbrido | `DevOps, Dados/IA, Mobile` | 07/09/2026 |
+| [**Desenvolvedor FullStack Senior ( Python ) — HUNT IT**](https://github.com/huntit-br/vagas/issues/29) | Sênior | 🏢 Híbrido | `Backend, Frontend, Fullstack, DevOps, Dados/IA, QA` | 07/09/2026 |
+| [**Analista de Segurança Pleno (Fortinet) — HUNT IT**](https://github.com/huntit-br/vagas/issues/28) | Sênior | 📍 Presencial | `Backend, Dados/IA` | 07/09/2026 |
+| [**Analista de Automação e IA – Pleno — HUNT IT**](https://github.com/huntit-br/vagas/issues/27) | Tech Lead | 🏢 Híbrido | `Dados/IA` | 07/09/2026 |
+| [**Coordenador(a) de Novos Negócios — HUNT IT**](https://github.com/huntit-br/vagas/issues/26) | Tech Lead | 🏢 Híbrido | `Dados/IA, Mobile` | 07/09/2026 |
+| [**Analista de Dados / BI / ERP (Pleno ou Sênior) — HUNT IT**](https://github.com/huntit-br/vagas/issues/25) | Sênior | 📍 Presencial | `DevOps, Dados/IA, Mobile` | 07/09/2026 |
+| [**Analista de Sistemas Pleno/Sênior — HUNT IT**](https://github.com/huntit-br/vagas/issues/24) | Sênior | 🏢 Híbrido | `Dados/IA` | 07/09/2026 |
 | [**Desenvolvedor Full Stack Pleno/Sênior – IA — HUNT IT**](https://github.com/huntit-br/vagas/issues/23) | Sênior | 🏢 Híbrido | `Backend, Frontend, Fullstack, Dados/IA, QA` | 07/09/2026 |
 | [**Gerente de Escritório de Projetos (PMO) — HUNT IT**](https://github.com/huntit-br/vagas/issues/22) | Tech Lead | 📍 Presencial | `Dados/IA, Mobile` | 07/09/2026 |
 | [**Analista de Redes Nível 2 — HUNT IT**](https://github.com/huntit-br/vagas/issues/21) | Sênior | 🏢 Híbrido | `DevOps, Dados/IA` | 07/09/2026 |
